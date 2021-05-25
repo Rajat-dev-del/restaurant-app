@@ -1,0 +1,67 @@
+body {
+  background-color: #fff;
+}
+
+.site-header {
+  background-color: transparent;
+  padding: 20px 40px;
+}
+
+.site-header .logo {
+  color: #222;
+  font-size: 40px;
+  font-weight: 600;
+}
+
+.site-header ul.nav-bar {
+  list-style-type: none;
+}
+
+.site-header ul.nav-bar li {
+  font-size: 20px;
+  padding: 20px;
+}
+
+.site-header ul.nav-bar li a {
+  color: #222;
+}
+
+.restaurant-list h1 {
+  text-align: center;
+  color: #222;
+  font-size: 42px;
+  font-weight: 500;
+  margin-bottom: 50px;
+}
+
+.create-restraurant {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  justify-self: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  min-height: 100%;
+}
+
+.create-restraurant h1 {
+  margin-bottom: 50px;
+}
+
+.create-restraurant form > div {
+  margin-bottom: 30px;
+}
+
+.create-restraurant form > div input {
+  width: 400px;
+  height: 50px;
+  border-radius: 6px;
+  border: 1px solid #ddd;
+  padding: 5px 20px;
+}
+/*# sourceMappingURL=main.css.map */
